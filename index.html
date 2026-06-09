@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amorim | Portfolio</title>
     <link rel="icon" type="image/png" href="img/assets-logo.png">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
         integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
@@ -14,14 +15,14 @@
 
 <body>
     <header>
-        <h1>Dev <span>Amorim</span></h1>
+        <h1 data-aos="fade-down" data-aos-duration="500">Dev <span>Amorim</span></h1>
         <nav>
             <ul aria-label="Navegação primária" class="navegacao-primaria">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#resume">Resume</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li data-aos="fade-down" data-aos-duration="1000"><a href="#home">Home</a></li>
+                <li data-aos="fade-down" data-aos-duration="1500"><a href="#about">About</a></li>
+                <li data-aos="fade-down" data-aos-duration="2000"><a href="#resume">Resume</a></li>
+                <li data-aos="fade-down" data-aos-duration="2500"><a href="#projects">Projects</a></li>
+                <li data-aos="fade-down" data-aos-duration="3000"><a href="#contact">Contact</a></li>
             </ul>
             <i class="fa-solid fa-bars"></i>
         </nav>
@@ -29,12 +30,12 @@
     </header>
     <section id="home" aria-label="Seção currículo download Pedro" class="section-cv">
         <div>
-            <h2 class="hi">Hi There!</h2>
+            <h2 data-aos="fade-right" data-aos-duration="1000" class="hi">Hi There!</h2>
             <h2 class="digitando">Front-End Developer & Data/BI Analyst</h2>
             <p class="digitando2">I create modern, responsive and interactive web experiences focused on performance, clean design and data-driven solutions.</p>
             <a href="./cv/CV.pdf" download class="btn">Download CV</a>
         </div>
-        <img src="img/foto1.png" alt="imagem do desenvolvedor">
+        <img data-aos="fade-left" data-aos-duration="2500" src="img/foto1.png" alt="imagem do desenvolvedor">
     </section>
     <main id="about">
         <article aria-label="Seção sobre mim" class="sobre">
@@ -56,13 +57,20 @@
                         visual effects that combine aesthetics with functionality. My interest in technology started
                         from curiosity and quickly became a passion for web development. Since then, I’ve been improving
                         my skills in HTML, CSS, JavaScript and modern front-end techniques to create professional,
-                        interactive and visually engaging projects. I’m constantly learning, exploring new technologies and pushing my creativity further to become a
+                        interactive and visually engaging projects. I’m constantly learning, exploring new technologies
+                        and pushing my creativity further to become a
                         Full Stack Developer capable of building innovative and impactful digital solutions.</p>
                     <br>
-                    <p>I am also passionate about data analysis and Business Intelligence, transforming raw data into clear insights and interactive dashboards.
-                        I enjoy working with Excel, Python and Power BI to create data-driven solutions that support decision-making and business growth. Looking forward to my first professional opportunity.<br><br>
-                        <span class="skills-category">Front-End:</span> <span class="skills-text">HTML • CSS • JavaScript • Responsive Websites</span><br>
-                        <span class="skills-category">Data/BI:</span> <span class="skills-text">Excel • Python • Power BI • Data Visualization</span></p>
+                    <p>I am also passionate about data analysis and Business Intelligence, transforming raw data into
+                        clear insights and interactive dashboards.
+                        I enjoy working with Excel, Python and Power BI to create data-driven solutions that support
+                        decision-making and business growth. Looking forward to my first professional
+                        opportunity.<br><br>
+                        <span class="skills-category">Front-End:</span> <span class="skills-text">HTML • CSS •
+                            JavaScript • Responsive Websites</span><br>
+                        <span class="skills-category">Data/BI:</span> <span class="skills-text">Excel • Python • Power
+                            BI • Data Visualization</span>
+                    </p>
                 </div>
                 <div class="sobre_info">
                     <p><i class="fa-solid fa-calendar-days"></i>Date of birth: 15 August 2006</p>
@@ -137,139 +145,140 @@
                 <span></span>
             </div>
         </div>
-            <div class="resume_myself">
-                <h2 class="educantion"><i class="fa-solid fa-certificate"></i>COURSES</h2>
-                <div class="education_content">
-                    <div>
-                        <span>2024-2025</span>
-                        <h3>Web Development</h3>
-                        <p>Lógica de Programação - 12-hour course<br>
-                            HTML - 8-hour course<br>
-                            CSS - 8-hour course<br>
-                            JavaScript - 10-hour course<br>
-                            Banco de Dados com SQL - 16-hour course<br>
-                            Python - (In Progress)</p>
-                    </div>
+        <div class="resume_myself">
+            <h2 class="educantion"><i class="fa-solid fa-certificate"></i>COURSES</h2>
+            <div class="education_content">
+                <div>
+                    <span>2024-2025</span>
+                    <h3>Web Development</h3>
+                    <p>Lógica de Programação - 12-hour course<br>
+                        HTML - 8-hour course<br>
+                        CSS - 8-hour course<br>
+                        JavaScript - 10-hour course<br>
+                        Banco de Dados com SQL - 16-hour course<br>
+                        Python - (In Progress)</p>
+                </div>
 
-                    <div>
-                        <span>2024-2025</span>
-                        <h3>Microsoft Office</h3>
-                        <p>Windows 11 - 16-hour course<br>
-                            Microsoft Word 2021 - 16-hour course<br>
-                            Microsoft PowerPoint 2021 - 16-hour course<br>
-                            Microsoft Excel 2021 - 16-hour course<br>
-                            Power Bi - (In Progress)</p>
-                    </div>
+                <div>
+                    <span>2024-2025</span>
+                    <h3>Microsoft Office</h3>
+                    <p>Windows 11 - 16-hour course<br>
+                        Microsoft Word 2021 - 16-hour course<br>
+                        Microsoft PowerPoint 2021 - 16-hour course<br>
+                        Microsoft Excel 2021 - 16-hour course<br>
+                        Power Bi - (In Progress)</p>
+                </div>
 
-                    <div>
-                        <span>2021-2025</span>
-                        <h3>English Skills</h3>
-                        <p>Basic English Course<br>
-                            Intermediate English Course<br>
-                            Advanced English Course<br>
-                            IELTS - Band score 6<br>
-                            Tradução: Mercado e Prática</p>
-                    </div>
+                <div>
+                    <span>2021-2025</span>
+                    <h3>English Skills</h3>
+                    <p>Basic English Course<br>
+                        Intermediate English Course<br>
+                        Advanced English Course<br>
+                        IELTS - Band score 6<br>
+                        Tradução: Mercado e Prática</p>
+                </div>
+                <ul>
+                    <li><i class="fa-sharp fa-solid fa-circle"></i></li>
+                    <li><i class="fa-sharp fa-solid fa-circle"></i></li>
+                    <li><i class="fa-sharp fa-solid fa-circle"></i></li>
+                </ul>
+            </div>
+            <h2 class="education2"><i class="fa-solid fa-user-graduate"></i>FORMATION</h2>
+            <div class="education_content2">
+                <div>
+                    <span>2022-2024</span>
+                    <h3>Completed Secondary Education</h3>
+                    <p>Completed Secondary School Education in Brazil. Currently improving my technology skills and
+                        planning to begin an Information Technology degree in 2027.</p>
+                </div>
+
+                <div>
+                    <span>2027...</span>
+                    <h3>University</h3>
+                    <p>Intending to start an Information Technology degree in 2027.</p>
+                </div>
+                <ul>
+                    <li><i class="fa-sharp fa-solid fa-circle"></i></li>
+                    <li><i class="fa-sharp fa-solid fa-circle"></i></li>
+                </ul>
+            </div>
+        </div>
+        <div class="cursos">
+            <div class="my_skill">
+                <h2><i class="fa-sharp fa-regular fa-star"></i>PROFICIENCY IN USING VARIOUS TECHNOLOGIES </h2>
+                <div class="skill_content">
+                    <h3>HTML 5</h3>
                     <ul>
-                        <li><i class="fa-sharp fa-solid fa-circle"></i></li>
-                        <li><i class="fa-sharp fa-solid fa-circle"></i></li>
-                        <li><i class="fa-sharp fa-solid fa-circle"></i></li>
+                        <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                        <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                        <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                        <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                        <li><i class="fa-regular fa-star"></i></li>
                     </ul>
                 </div>
-                <h2 class="education2"><i class="fa-solid fa-user-graduate"></i>FORMATION</h2>
-                <div class="education_content2">
-                    <div>
-                        <span>2022-2024</span>
-                        <h3>Completed Secondary Education</h3>
-                        <p>Completed Secondary School Education in Brazil. Currently improving my technology skills and planning to begin an Information Technology degree in 2027.</p>
-                    </div>
-                    
-                    <div>
-                        <span>2027...</span>
-                        <h3>University</h3>
-                        <p>Intending to start an Information Technology degree in 2027.</p>
-                    </div>
+                <div class="skill_content">
+                    <h3>CSS 3</h3>
                     <ul>
-                        <li><i class="fa-sharp fa-solid fa-circle"></i></li>
-                        <li><i class="fa-sharp fa-solid fa-circle"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-regular fa-star"></i></li>
+                        <li><i class="fa-regular fa-star"></i></li>
+                    </ul>
+                </div>
+                <div class="skill_content">
+                    <h3>JAVASCRIPT</h3>
+                    <ul>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-regular fa-star"></i></li>
+                        <li><i class="fa-regular fa-star"></i></li>
+                    </ul>
+                </div>
+                <div class="skill_content">
+                    <h3>SQL DATABASE</h3>
+                    <ul>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-regular fa-star"></i></li>
+                        <li><i class="fa-regular fa-star"></i></li>
+                    </ul>
+                </div>
+                <div class="skill_content">
+                    <h3>POWER BI</h3>
+                    <ul>
+                        <i class="fa-solid fa-star-half"></i>
+                        <li><i class="fa-regular fa-star"></i></li>
+                        <li><i class="fa-regular fa-star"></i></li>
+                        <li><i class="fa-regular fa-star"></i></li>
+                        <li><i class="fa-regular fa-star"></i></li>
+                    </ul>
+                </div>
+                <div class="skill_content">
+                    <h3>PYTHON</h3>
+                    <ul>
+                        <i class="fa-solid fa-star-half"></i>
+                        <li><i class="fa-regular fa-star"></i></li>
+                        <li><i class="fa-regular fa-star"></i></li>
+                        <li><i class="fa-regular fa-star"></i></li>
+                        <li><i class="fa-regular fa-star"></i></li>
+                    </ul>
+                </div>
+                <div class="skill_content">
+                    <h3>EXCEL</h3>
+                    <ul>
+                        <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                        <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                        <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                        <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                        <li><i class="fa-regular fa-star"></i></li>
                     </ul>
                 </div>
             </div>
-            <div class="cursos">
-                <div class="my_skill">
-                    <h2><i class="fa-sharp fa-regular fa-star"></i>PROFICIENCY IN USING VARIOUS TECHNOLOGIES </h2>
-                    <div class="skill_content">
-                        <h3>HTML 5</h3>
-                        <ul>
-                            <li><i class="fa-sharp fa-solid fa-star"></i></li>
-                            <li><i class="fa-sharp fa-solid fa-star"></i></li>
-                            <li><i class="fa-sharp fa-solid fa-star"></i></li>
-                            <li><i class="fa-sharp fa-solid fa-star"></i></li>
-                            <li><i class="fa-regular fa-star"></i></li>
-                        </ul>
-                    </div>
-                                        <div class="skill_content">
-                        <h3>CSS 3</h3>
-                        <ul>
-                            <li><i class="fa-solid fa-star"></i></li>
-                            <li><i class="fa-solid fa-star"></i></li>
-                            <li><i class="fa-solid fa-star"></i></li>
-                            <li><i class="fa-regular fa-star"></i></li>
-                            <li><i class="fa-regular fa-star"></i></li>
-                        </ul>
-                    </div>
-                                        <div class="skill_content">
-                        <h3>JAVASCRIPT</h3>
-                        <ul>
-                            <li><i class="fa-solid fa-star"></i></li>
-                            <li><i class="fa-solid fa-star"></i></li>
-                            <li><i class="fa-solid fa-star"></i></li>
-                            <li><i class="fa-regular fa-star"></i></li>
-                            <li><i class="fa-regular fa-star"></i></li>
-                        </ul>
-                    </div>
-                                        <div class="skill_content">
-                        <h3>SQL DATABASE</h3>
-                        <ul>
-                            <li><i class="fa-solid fa-star"></i></li>
-                            <li><i class="fa-solid fa-star"></i></li>
-                            <li><i class="fa-solid fa-star"></i></li>
-                            <li><i class="fa-regular fa-star"></i></li>
-                            <li><i class="fa-regular fa-star"></i></li>
-                        </ul>
-                    </div>
-                    <div class="skill_content">
-                        <h3>POWER BI</h3>
-                        <ul>
-                            <i class="fa-solid fa-star-half"></i>
-                            <li><i class="fa-regular fa-star"></i></li>
-                            <li><i class="fa-regular fa-star"></i></li>
-                            <li><i class="fa-regular fa-star"></i></li>
-                            <li><i class="fa-regular fa-star"></i></li>
-                        </ul>
-                    </div>
-                    <div class="skill_content">
-                        <h3>PYTHON</h3>
-                        <ul>
-                            <i class="fa-solid fa-star-half"></i>
-                            <li><i class="fa-regular fa-star"></i></li>
-                            <li><i class="fa-regular fa-star"></i></li>
-                            <li><i class="fa-regular fa-star"></i></li>
-                            <li><i class="fa-regular fa-star"></i></li>
-                        </ul>
-                    </div>
-                                        <div class="skill_content">
-                        <h3>EXCEL</h3>
-                        <ul>
-                            <li><i class="fa-sharp fa-solid fa-star"></i></li>
-                            <li><i class="fa-sharp fa-solid fa-star"></i></li>
-                            <li><i class="fa-sharp fa-solid fa-star"></i></li>
-                            <li><i class="fa-sharp fa-solid fa-star"></i></li>
-                            <li><i class="fa-regular fa-star"></i></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+        </div>
     </div>
     <section id="projects" class="projects">
         <div class="sobre_titulo">
@@ -292,41 +301,54 @@
 
         <div class="projects_armazenamento">
             <ul aria-label="Navegação de projetos e websites">
-                <li id="game"><a href="#"><img src="img-projects/projeto_indisponivel.jpeg" alt="Projeto indisponível."></a></li>
-                <li id="game"><a href="#"><img src="img-projects/projeto_indisponivel.jpeg" alt="Projeto indisponível."></a></li>
-                <li id="other"><a href="#"><img src="img-projects/projeto_indisponivel.jpeg" alt="Projeto indisponível."></a></li>
-                <li id="other"><a href="#"><img src="img-projects/projeto_indisponivel.jpeg" alt="Projeto indisponível."></a></li>
-                <li id="website"><a href="https://pedroamorim1001.github.io/landing-page-cafeteria/" target="_blank"><img src="./img-projects/cafewebsite.png" alt="Café's website."></a></li>
-                <li id="website"><a href="#"><img src="img-projects/projeto_indisponivel.jpeg" alt="Projeto indisponível."></a></li>
-                <li id="website"><a href="#"><img src="img-projects/projeto_indisponivel.jpeg" alt="Projeto indisponível."></a></li>
-                <li id="website"><a href="#"><img src="img-projects/projeto_indisponivel.jpeg" alt="Projeto indisponível."></a></li>
+                <li id="game"><a href="#"><img src="img-projects/projeto_indisponivel.jpeg"
+                            alt="Projeto indisponível."></a></li>
+                <li id="game"><a href="#"><img src="img-projects/projeto_indisponivel.jpeg"
+                            alt="Projeto indisponível."></a></li>
+                <li id="other"><a href="https://pedroamorim1001.github.io/3d-project-spline-cube/" target="_blank"><img
+                            src="./img-projects/cubespline.jpeg" alt="Projeto cubo 3d com Spline."></a></li>
+                <li id="other"><a href="https://pedroamorim1001.github.io/3d-project-spline-robot/" target="_blank"><img
+                            src="./img-projects/robotspline.jpeg" alt="Projeto robô 3d com Spline."></a></li>
+                <li id="website"><a href="https://pedroamorim1001.github.io/landing-page-cafeteria/"
+                        target="_blank"><img src="./img-projects/cafewebsite.png" alt="Café's website."></a></li>
+                <li id="website"><a href="#"><img src="img-projects/projeto_indisponivel.jpeg"
+                            alt="Projeto indisponível."></a></li>
+                <li id="website"><a href="#"><img src="img-projects/projeto_indisponivel.jpeg"
+                            alt="Projeto indisponível."></a></li>
+                <li id="website"><a href="#"><img src="img-projects/projeto_indisponivel.jpeg"
+                            alt="Projeto indisponível."></a></li>
             </ul>
         </div>
         <a href="https://github.com/pedroamorim1001" target="_blank">See More Projects</a>
     </section>
     <footer id="contact">
-         <div class="sobre_titulo">
+        <div class="sobre_titulo">
             <h1>Dev Amorim</h1>
             <p>Building immersive digital experiences with creativity, passion and modern technology.</p>
-            </div>
-            <nav aria-label="Navegação de links sociais">
-                <ul class="footer_socials">
-                    <li>
-                        <a href="https://wa.me/5533991416289" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
-                    </li>
+        </div>
+        <nav aria-label="Navegação de links sociais">
+            <ul class="footer_socials">
+                <li>
+                    <a href="https://wa.me/5533991416289" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                </li>
 
-                    <li>
-                        <a href="https://linkedin.com/in/pedro-henrique-rocha-91761b179" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
-                    </li>
+                <li>
+                    <a href="https://linkedin.com/in/pedro-henrique-rocha-91761b179" target="_blank"><i
+                            class="fa-brands fa-linkedin-in"></i></a>
+                </li>
 
-                    <li>
-                        <a href="https://github.com/pedroamorim1001" target="_blank"><i class="fa-brands fa-github"></i></a>
-                    </li>
+                <li>
+                    <a href="https://github.com/pedroamorim1001" target="_blank"><i class="fa-brands fa-github"></i></a>
+                </li>
             </ul>
         </nav>
         <p class="footer_comercial">&copy; 2026 Dev Amorim. All Rights Reserved.</p>
     </footer>
     <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
